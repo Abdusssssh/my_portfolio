@@ -11,23 +11,32 @@ body{background-color: #191919;}
 
 .main-header{
     position: relative;  
-    background-image: url("images/ben.png");
-    min-width: fit-content;
+    background-image: url("images/BENN.png"),url("images/bals.png");
+    background-size: 900px, 300px ;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position:right top, left top ;
       
 }
 
-.profile{
-    max-height: 1080px;
-    position: absolute;
-    right: 0%;
- 
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 10%; */
+    border-top: solid 3px turquoise;
+    padding-left: 30px;
+    padding-right: 20px;
 }
 
-.bals{
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    max-width: 300px;
+.information{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    gap: 50px;
 }
 
 .header{
@@ -36,21 +45,51 @@ body{background-color: #191919;}
 }
 
 .title{
-    color: green;
+    color: #00FF00;
     left: 50px;
     font-size:60px;
     font-family: sans-serif;
     font-weight: bolder;
     text-shadow: 0px 0px 140px rgb(255, 255, 255);
-    position: relative;
-    display: inline-blocks;
-    top: 300px;
-    left: 10%;
-    
 }
 
 
 .title-2{
-    color: rgb(249, 150, 167);
+    color: #F50CA0;
     text-shadow: 0px 0px 140px rgb(255, 255, 255);
+}
+
+.surname{ 
+    /* position: absolute; */
+    left: 3%;
+    top: 5%;
+    font-size: 100px;
+    color: aliceblue;
+}
+
+.contact{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#43DDE2;
+}
+
+.svg{
+    height: 70px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.button{
+    background-color:#F9F940;
+    color: ;
+    font-size: 40px;
+    max-height: 60px;
+    max-width: 500px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
