@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none ;
+    font-family: 'Koulen', cursive;
+}
+
+body{background-color: #191919;}
+
+.main-header{
+    position: relative;  
+    background-image: url("images/ben.png");
+    min-width: fit-content;
+      
+}
+
+.profile{
+    max-height: 1080px;
+    position: absolute;
+    right: 0%;
+ 
+}
+
+.bals{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    max-width: 300px;
+}
+
+.header{
+    position: relative;
+    
+}
+
+.title{
+    color: green;
+    left: 50px;
+    font-size:60px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-shadow: 0px 0px 140px rgb(255, 255, 255);
+    position: relative;
+    display: inline-blocks;
+    top: 300px;
+    left: 10%;
+    
+}
+
+
+.title-2{
+    color: rgb(249, 150, 167);
+    text-shadow: 0px 0px 140px rgb(255, 255, 255);
+}
